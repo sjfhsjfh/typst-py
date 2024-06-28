@@ -67,7 +67,7 @@ pub fn query(world: &mut SystemWorld, command: &QueryCommand) -> StrResult<Strin
 }
 
 /// Retrieve the matches for the selector.
-fn retrieve(
+pub fn retrieve(
     world: &dyn World,
     command: &QueryCommand,
     document: &Document,
