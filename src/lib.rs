@@ -13,8 +13,8 @@ mod compiler;
 mod download;
 mod fonts;
 mod package;
-mod query;
-mod world;
+pub mod query;
+pub mod world;
 
 mod output_template {
     const INDEXABLE: [&str; 3] = ["{p}", "{0p}", "{n}"];
